@@ -1,0 +1,46 @@
+# Environment variables / secrets
+.env
+.env.local
+!.env.example
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model checkpoints and trained models (large binary files)
+trained_models/
+hpo_checkpoints/
+hpo_experiments/
+phase1_experiments/
+backtest_final/
+papertrading_erl/
+papertrading_erl_retrain/
+papertrading_erl_v2/
+papertrading_erl_v2_deploy/
+tensorboard_log/
+*.pth
+
+# Datasets (can be regenerated)
+datasets/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
