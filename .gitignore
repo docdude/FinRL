@@ -44,3 +44,6 @@ datasets/
 # OS
 .DS_Store
 Thumbs.db
+
+# Wyckoff effort data & experiments (tracked in ElegantRL repo)
+wyckoff_effort/
